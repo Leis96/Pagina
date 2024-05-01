@@ -1,0 +1,167 @@
+.contenedor {
+    width:auto;
+    height: 300px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div img {
+    width: 355px;
+    height: 300px;
+    ;
+}
+
+.info {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mas-info div {
+    display:  flex;
+    margin: 10px 0 5px 0;
+}
+.mas-info div p {
+    margin-left: 8px;
+    margin-top: 12px;
+}
+.mas-info  div img{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.item1 {
+    width: 700px;
+    height: 300px;
+    position: relative;
+    margin: 0 25%;
+}
+
+.item1 img {
+    width: 700px;
+    height: 300px;
+}
+
+.item2 {
+    background-color: chartreuse;
+    width: 300px;
+    height: 255px;
+    position: absolute;
+    top: 400px;
+    right: 335px;
+    border-radius: 5px;
+}
+.item2 h2 {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.item2 p {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 5px;
+}
+
+.contenedor-tres {
+    width: auto;
+    height: 400px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-tres div img {
+    width: 150px;
+    height: 150px;
+}
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+.iconos div p{
+    margin-top: 15px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    background-color: beige;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-bottom: 25px;
+}
+
+.carrera {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+}
+
+.lista div ul {
+    padding: 0 15%;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+}
+.lista div ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.contenido {
+    width: auto;
+    height: 500px;
+    display:  flex;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.contenido .item-uno img {
+    width: 300px;
+    height: 500px;
+}
+.contenido .item-dos {
+    background-color: aqua;
+    width: 300px;
+    height: 500px;
+}
+
+.contenido .principal {
+    width: 250px;
+    height: 200px;
+    top: 160px;
+    right: 460px;
+    background-color: rgb(195, 182, 173);
+    position: absolute;
+    border-radius: 15px;
+} 
+
+.contenido-sesion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.principal h3 {
+    text-align: center;
+}
+.contenido-sesion div p{
+    border: 1px solid black;
+    padding: 10px 55px;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
